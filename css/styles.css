@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color: #555;
+    font-weight: 300;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+/************************************************Header*******************************************************************/
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/men-having-their-haircut-1813272.jpg);
+    /* a linear gradient adds a color on top of the image */
+    height: 100vh;
+    background-size: cover;
+    /* set the background image to fit the viewport */
+    background-position: center;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 45%;
+    left: 20%;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+h3{
+    margin-bottom: 20px;
+}
+/**************************************Buttons***************************************************************/
+/*the following sets the behavior of the buttons when the are visited or hovered the ( :) creates pseudo classes*/
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    border-radius: 400px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
+}
+
+.btn-full:link,
+.btn-full:visited{
+    margin-right: 15px;
+    background-color: #F22222;
+    border: 1px solid  #F22222;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid  #F22222;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #640606;
+}
+
+
+.btn-full:hover,
+.btn-full:active{
+    border: 1px solid #640606;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid  #640606;
+}
+
+.submit{
+    margin-left: 40px;
+}
+/**********************************************Sections******************************************/
+
+section{
+    padding: 80px 0;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+p{
+    margin-bottom: 60px;
+}
+#Book-Now{
+    background-color: #fef3f3;
+}
+.h1_mod{
+    color: #555;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+form{
+    margin-left: 40px;
+    width: 500px;
+}
+label{
+    margin-bottom: 20px;
+}
+input{
+    margin-bottom: 20px;
+    width: 300px;
+}
+textarea{
+    width: 100%;
+    resize: none;
+    height: 150px;
+    margin-bottom: 20px;
+    }
+fieldset{
+    width: 600px ;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.barb_label{
+    margin-bottom: 40px;
+}
+/****************JQuery************************ */
+.ui-menu { width: 150px; }
